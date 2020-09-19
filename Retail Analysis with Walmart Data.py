@@ -88,9 +88,7 @@ print(stores_nonholiday_sales_sum>stores_holiday_sales_mean)
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#To view plot in Jupyter
-
-get_ipython().run_line_magic('matplotlib', 'inline')
+#To view plot 
 
 corr = df_wss.corr()
 plt.figure(figsize=(10,10))
